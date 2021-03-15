@@ -223,7 +223,6 @@ export default class PhoneInput<TextComponentType extends React.ComponentType = 
                         }}
                         editable={!disabled}
                         autoCorrect={false}
-                        style={[styles.text, this.props.textStyle]}
                         onChangeText={(text) => {
                             this.onChangePhoneNumber(text);
                         }}
